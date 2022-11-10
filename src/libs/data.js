@@ -77,6 +77,24 @@ const samplePosts = [
         'A pigeon with a spectacular green plumage stares thoughtfully into the distance.',
     },
   },
+  {
+    postId: 4,
+    title: 'A Lovely Dog',
+    date: '16/10/22',
+    author: 'Dog Doggo',
+    text: lorem.generateParagraphs(7),
+    highlights: [
+      lorem.generateWords(3),
+      lorem.generateWords(3),
+      lorem.generateWords(3),
+    ],
+    image: {
+      link:
+        'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      alt:
+        'A pigeon with a spectacular green plumage stares thoughtfully into the distance.',
+    },
+  }
 ];
 
 export default samplePosts;
